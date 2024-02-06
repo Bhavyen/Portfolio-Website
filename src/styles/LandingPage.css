@@ -1,0 +1,60 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.parent-container{
+  width: '100vw';
+  height: '100vh';
+  background-image: url('../images/landingpage.jpg') ; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.first-half{
+  height: 70vh; 
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  font-size: 70vh;
+  font-family: 'Happy Monkey';
+  
+}
+.text{
+  color:transparent;
+  -webkit-text-stroke: 5px white;
+  text-shadow: none;
+}
+.text-name{
+  font-family:'Inter';
+  font-size:21vh;
+  color: white;
+  opacity: 0.8;
+}
+
+.fh-image{
+  height: 70vh;
+}
+
+
+.second-half{
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sh-image{
+
+  height: 30vh;
+}

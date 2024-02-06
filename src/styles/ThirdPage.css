@@ -1,0 +1,200 @@
+.thirdpage-parent-container {
+  width: '100vw';
+  height: '100vh';
+  background-image: url('../images/thirdpage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.thirdpage-first-half{
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  font-style: italic;
+}
+
+.thirdpage-second-half{
+  height: 70vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  gap: 5vw;
+}
+
+.dummy{
+  opacity: 0;
+  background-color: pink;
+  width: 15vw;
+}
+.dummy2 {
+  opacity: 0;
+  background-color: lightgray;
+  width: 25vw;
+}
+
+.card{
+  background-color: #D9D9D9;
+  opacity: 0.4;
+  height: 50vh;
+  width: 30vw;
+  border-radius: 8vh;
+  transition: width 0.5s ease-out;
+
+}
+.card.resized{
+  width: 60vw;
+  opacity: 0.75;
+}
+.card.otherresized{
+  width: 56vw;
+}
+
+.card.content1{
+ 
+  width: 1vw;
+  cursor: pointer;
+}
+.card.content2{
+  
+  width: 1vw;
+  cursor: pointer;
+  
+}
+
+
+.card-holder-1{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 70vw;
+  transition: max-width 0.5s ease-in;
+  /* background-color: aqua;
+   */
+}
+
+.card-holder-1.otherresized{
+
+  display: flex;
+  justify-content: start;
+}
+.card-holder-2 {
+  z-index: 999;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 70vw;
+  transition: max-width 0.5s ease-in;
+  /* background-color: pink; */
+  position: absolute;
+  bottom: -190vh;
+  right: 15vw;
+}
+
+
+
+.card-heading{
+  margin-top:3vh;
+  margin-left:2vw;
+  font-size: 2.5vw;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  font-weight:normal;
+  opacity: 100%;
+  color: #634832;
+
+}
+
+.card-body{
+  color: #87654E;
+  margin-left:2vw;
+  margin-top:1vh;
+  max-width: 26vw;
+  font-size: 1.5vw;
+  font-family: 'Neue Haas Grotesk Display Pro',sans-serif;
+  height: 29vh;
+  
+  
+  
+  transition: max-width 0.5s ease-in;
+}
+
+.card-body.resized{
+  overflow-y: auto;
+    overflow-x: hidden;
+  max-width: 56vw;
+  width: 56vw;
+}
+.card-body.otherresized {
+
+  max-width: 52vw;
+  width: 52vw;
+}
+
+.card-subscript{
+  
+  margin-left: 2vw;
+  margin-top: 1vh;
+  max-width: 26vw;
+  
+}
+
+a {
+  font-size: 2vw;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  color: #634832;
+  font-weight: normal;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0.5vh;
+  background: #634832;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  bottom: -1vh;
+}
+
+a:hover::before {
+  
+  width: 100%;
+}
+
+.sample-images-holder{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+}
+.sample-images {
+
+  width: 20vw;
+  cursor: pointer;
+}
+
+.thirdpage-heading-1{
+  font-size: 25vh;
+  color: transparent;
+  -webkit-text-stroke: 5px #634832;
+}
+.thirdpage-heading-2{
+  font-size: 25vh;
+  margin-left: 3vh;
+  color: rgba(150, 114, 89, 0.7);
+  -webkit-text-stroke: 5px #634832;
+}

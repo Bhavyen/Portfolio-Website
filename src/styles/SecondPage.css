@@ -1,0 +1,51 @@
+.secondpage-parent-container {
+  width: '100vw';
+  height: '100vh';
+  background-image: url('../images/secondpage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.secondpage-first-half {
+  height: 35vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Neue Haas Grotesk Display Pro',sans-serif;
+  font-style: italic;
+  
+}
+.secondpage-heading-1 {
+  font-size: 25vh;
+  color:rgba(59,116,36,0.2);
+  -webkit-text-stroke: 4px white;
+  
+  text-shadow: none;
+}
+
+.secondpage-heading-2 {
+  color: white;
+  opacity: 0.9;
+  margin-left: 2vw;
+  font-size: 25vh;
+}
+.s-fh-image {
+  height: 35vh;
+}
+.secondpage-second-half {
+  height: 65vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-sh-image{
+  height: 50vh;
+}
