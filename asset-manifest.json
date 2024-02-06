@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.e51e410f.css",
+    "main.js": "/Portfolio-Website/static/js/main.c95a98af.js",
+    "static/js/592.6d7de513.chunk.js": "/Portfolio-Website/static/js/592.6d7de513.chunk.js",
+    "static/media/secondpage.png": "/Portfolio-Website/static/media/secondpage.d4b1c5edf3a9b7fcb711.png",
+    "static/media/thirdpage.png": "/Portfolio-Website/static/media/thirdpage.c4429a01956f15e832c7.png",
+    "static/media/landingpage.jpg": "/Portfolio-Website/static/media/landingpage.7a05af175597cbec699f.jpg",
+    "static/media/copy3.jpg": "/Portfolio-Website/static/media/copy3.655fd729c661fb3b4df4.jpg",
+    "static/media/8.png": "/Portfolio-Website/static/media/8.b519c246e4ed041cf785.png",
+    "static/media/9.png": "/Portfolio-Website/static/media/9.01eabbec41e4f0331fd0.png",
+    "static/media/Group 7.png": "/Portfolio-Website/static/media/Group 7.7d1f8da65501b0634f43.png",
+    "static/media/5.png": "/Portfolio-Website/static/media/5.153f5725dac96be6c54f.png",
+    "static/media/NeueHaasDisplayMediumItalic.ttf": "/Portfolio-Website/static/media/NeueHaasDisplayMediumItalic.e5cc5aa11f7b5407f565.ttf",
+    "static/media/7.png": "/Portfolio-Website/static/media/7.005b0d5957116e1bc279.png",
+    "static/media/4.png": "/Portfolio-Website/static/media/4.f8ce7ed0b15fe171a3d5.png",
+    "static/media/2.png": "/Portfolio-Website/static/media/2.2be4de124300d257066b.png",
+    "static/media/3.png": "/Portfolio-Website/static/media/3.b9a34c217c0a4a8f1f8d.png",
+    "static/media/6.png": "/Portfolio-Website/static/media/6.c4e8aedf60a75f889240.png",
+    "static/media/1.png": "/Portfolio-Website/static/media/1.5133bfe9a67cc52fb2ee.png",
+    "static/media/phone.webp": "/Portfolio-Website/static/media/phone.f777b7dbe694bb099e9b.webp",
+    "static/media/email.webp": "/Portfolio-Website/static/media/email.4718424ffd14d2b8cb42.webp",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.e51e410f.css.map": "/Portfolio-Website/static/css/main.e51e410f.css.map",
+    "main.c95a98af.js.map": "/Portfolio-Website/static/js/main.c95a98af.js.map",
+    "592.6d7de513.chunk.js.map": "/Portfolio-Website/static/js/592.6d7de513.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e51e410f.css",
+    "static/js/main.c95a98af.js"
+  ]
+}
